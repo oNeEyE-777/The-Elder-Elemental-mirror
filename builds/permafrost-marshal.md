@@ -27,4 +27,4 @@ CP total: 1804
 | Front | 5 | Blinding Flare | skill.blinding_flare | 5s | Support | Slotted: (Major Protection) | 🔒 |
 | Front | ULT | Reviving Barrier | skill.reviving_barrier | 30s / 15s | Support | — | 🔒 |
 | . | . | . | . | . | . | . | . |
-| Back | 1 | Ulfsild's Contingency | s
+| Back | 1 | Ulfsild's Contingency | skill.ulfsilds_contingency | 22s | Mages Guild (Focus: Shield; Signature: Damage reduction; Affix: Minor Expedition) | On cast: (Minor Expedition) | 🔒 |
