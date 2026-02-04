@@ -28,3 +28,48 @@ CP total: 1804
 | Front | ULT | Reviving Barrier | skill.reviving_barrier | 30s / 15s | Support | — | 🔒 |
 | . | . | . | . | . | . | . | . |
 | Back | 1 | Ulfsild's Contingency | skill.ulfsilds_contingency | 22s | Mages Guild (Focus: Shield; Signature: Damage reduction; Affix: Minor Expedition) | On cast: (Minor Expedition) | 🔒 |
+| Back | 2 | Resolving Vigor | skill.resolving_vigor | 5s / 20s | Assault | On cast: (Minor Resolve) | 🔒 |
+| Back | 3 | Bull Netch / Blue Betty | skill.bull_netch | 25s | Animal Companions | On cast: (Major Brutality) (Major Sorcery) | 🔒 |
+| Back | 4 | Wield Soul | skill.wield_soul | 10s | Soul Magic (Focus: Healing; Signature: Sustain; Affix: Vitality) | On cast: (Major Vitality) (Magicka sustain) | 🔒 |
+| Back | 5 | Blinding Flare | skill.blinding_flare_back | 5s | Support | Slotted: (Major Protection) | 🔒 |
+| Back | ULT | Glacial Colossus | skill.glacial_colossus | 3s / 12s | Grave Lord | On hit: (Major Vulnerability) | 🔒 |
+
+## 12 Gear (all slots)
+
+| Gear slot | Set | set_id | Weight | Trait | Enchant | Effects (Named) | S |
+|---|---|---|---|---|---|---|:--:|
+| Head | Nibenay (1pc) | set.nibenay_bay_battlereeve | Heavy | Reinforced | Max Magicka | — | 🔒 |
+| Shoulder | Adept Rider | set.adept_rider | Heavy | Impenetrable | Max Magicka | Passive (always): (Major Expedition) (Major Gallop) | 🔒 |
+| Chest | Adept Rider | set.adept_rider | Heavy | Reinforced | Max Magicka | Passive (always): (Major Expedition) (Major Gallop) | 🔒 |
+| Hands | Adept Rider | set.adept_rider | Medium | Impenetrable | Max Magicka | Passive (always): (Major Expedition) (Major Gallop) | 🔒 |
+| Waist | Adept Rider | set.adept_rider | Light | Impenetrable | Max Magicka | Passive (always): (Major Expedition) (Major Gallop) | 🔒 |
+| Legs | Adept Rider | set.adept_rider | Heavy | Reinforced | Max Magicka | Passive (always): (Major Expedition) (Major Gallop) | 🔒 |
+| Feet | Mark of the Pariah | set.mark_of_the_pariah | Heavy | Impenetrable | Max Magicka | — | 🔒 |
+| Neck | Mark of the Pariah | set.mark_of_the_pariah | — | Swift | Magicka Recovery | — | 🔒 |
+| Ring 1 | Mark of the Pariah | set.mark_of_the_pariah | — | Swift | Magicka Recovery | — | 🔒 |
+| Ring 2 (Mythic/Alt) | Ring of the Wild Hunt | set.ring_of_the_wild_hunt | — | Swift | Magicka Recovery | Passive (always): (+15% Movement Speed IN) (+45% Movement Speed OUT) | 🔒 |
+| Front weapon | Mark of the Pariah (Ice staff) | set.mark_of_the_pariah | — | Defending | Absorb Magicka | — | 🔒 |
+| Back weapon | Mark of the Pariah (Ice staff) | set.mark_of_the_pariah | — | Defending | Absorb Magicka | — | 🔒 |
+
+## Attributes
+
+| Stat | Points | Unbuffed Total | Buffed Total | S |
+|---|---:|---:|---:|:--:|
+| Health | 64 |   |   | 🔒 |
+| Magicka | 0 |   |   | 🔒 |
+| Stamina | 0 |   |   | 🔒 |
+
+## CP stars (slotted only)
+
+| Tree | Slot 1 | cp_id_1 | Slot 2 | cp_id_2 | Slot 3 | cp_id_3 | Slot 4 | cp_id_4 | S |
+|---|---|---|---|---|---|---|---|---|:--:|
+| Warfare | Ironclad | cp.ironclad | Duelist's Rebuff | cp.duelists_rebuff | Bulwark | cp.bulwark | Resilience | cp.resilience | 🔒 |
+| Fitness | Celerity | cp.celerity | Pain's Refuge | cp.pains_refuge | Sustained by Suffering | cp.sustained_by_suffering | Bastion | cp.bastion | 🔒 |
+| Craft | Steed's Blessing | cp.steeds_blessing | War Mount | cp.war_mount | Gifted Rider | cp.gifted_rider | Sustaining Shadows | cp.sustaining_shadows | 🔒 |
+
+## Speed sources
+
+| Source ID | Adept Rider | Wild Hunt | Celerity | Steed’s Blessing | Ulfsild | Swift (all jewelry) | Total | S |
+|---|---|---|---|---|---|---|---|:--:|
+| In-combat % | +30 | +15 | +10 | 0 | +15 | +19 | +89 | 🔒 |
+| Out-of-combat % | +30 | +45 | +10 | +20 | +15 | +19 | +139 | 🔒 |
