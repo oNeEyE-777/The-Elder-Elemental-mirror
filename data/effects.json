@@ -1,0 +1,194 @@
+{
+    "effects": [
+        {
+            "id": "effect_major_protection",
+            "name": "Major Protection",
+            "type": "buff",
+            "strength_tier": "major",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Reduces damage taken by 10%."
+        },
+        {
+            "id": "effect_minor_protection",
+            "name": "Minor Protection",
+            "type": "buff",
+            "strength_tier": "minor",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Reduces damage taken by 5%."
+        },
+        {
+            "id": "effect_major_resolve",
+            "name": "Major Resolve",
+            "type": "buff",
+            "strength_tier": "major",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Increases Physical and Spell Resistance."
+        },
+        {
+            "id": "effect_major_sorcery",
+            "name": "Major Sorcery",
+            "type": "buff",
+            "strength_tier": "major",
+            "category": "offense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Increases Spell Damage."
+        },
+        {
+            "id": "effect_minor_heroism",
+            "name": "Minor Heroism",
+            "type": "buff",
+            "strength_tier": "minor",
+            "category": "resource",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Generates Ultimate over time."
+        },
+        {
+            "id": "effect_minor_berserk",
+            "name": "Minor Berserk",
+            "type": "buff",
+            "strength_tier": "minor",
+            "category": "offense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Increases damage done by 5%."
+        },
+        {
+            "id": "effect_major_breach",
+            "name": "Major Breach",
+            "type": "debuff",
+            "strength_tier": "major",
+            "category": "offense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Reduces target's Physical and Spell Resistance."
+        },
+        {
+            "id": "effect_snare_heavy",
+            "name": "Heavy Snare",
+            "type": "debuff",
+            "strength_tier": "base",
+            "category": "control",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Strong movement speed reduction (around 60–70%)."
+        },
+        {
+            "id": "effect_snare_light",
+            "name": "Light Snare",
+            "type": "debuff",
+            "strength_tier": "base",
+            "category": "control",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Moderate movement speed reduction."
+        },
+        {
+            "id": "effect_status_chilled",
+            "name": "Chilled Status",
+            "type": "debuff",
+            "strength_tier": "base",
+            "category": "control",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Applies Chilled, enabling Minor Brittle from some sources."
+        },
+        {
+            "id": "effect_max_magicka_flat",
+            "name": "Max Magicka Bonus",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "resource",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Increases maximum Magicka."
+        },
+        {
+            "id": "effect_crit_damage_minor",
+            "name": "Minor Critical Damage",
+            "type": "buff",
+            "strength_tier": "minor",
+            "category": "offense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Slightly increases critical damage."
+        },
+        {
+            "id": "effect_magicka_recovery_flat",
+            "name": "Magicka Recovery Bonus",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "resource",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Increases Magicka Recovery."
+        },
+        {
+            "id": "effect_purge_single",
+            "name": "Cleanse (Single)",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "utility",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Removes one negative effect."
+        },
+        {
+            "id": "effect_projectile_absorb",
+            "name": "Projectile Absorption",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Absorbs a limited number of incoming projectiles."
+        },
+        {
+            "id": "effect_projectile_shield_minor",
+            "name": "Minor Projectile Shield",
+            "type": "buff",
+            "strength_tier": "minor",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Provides a minor shield against projectiles while standing in the effect."
+        },
+        {
+            "id": "effect_heal_over_time_generic",
+            "name": "Heal over Time",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "defense",
+            "source_type": "skill",
+            "stacking": "stacking",
+            "notes": "Restores Health over time."
+        },
+        {
+            "id": "effect_execute_scaling",
+            "name": "Execute Scaling",
+            "type": "buff",
+            "strength_tier": "base",
+            "category": "offense",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Increases damage against low-health targets."
+        },
+        {
+            "id": "effect_stun_short",
+            "name": "Short Stun",
+            "type": "debuff",
+            "strength_tier": "base",
+            "category": "control",
+            "source_type": "skill",
+            "stacking": "non-stacking",
+            "notes": "Brief hard crowd control effect."
+        }
+    ]
+}

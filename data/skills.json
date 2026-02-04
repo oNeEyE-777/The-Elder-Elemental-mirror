@@ -1,0 +1,253 @@
+{
+    "skills": [
+        {
+            "id": "skill_permafrost",
+            "name": "Permafrost",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Permafrost",
+            "bar": "back",
+            "slot": "U",
+            "role": [
+                "ultimate",
+                "control",
+                "defense"
+            ],
+            "tags": [
+                "frost",
+                "aoe",
+                "snare",
+                "mitigation"
+            ],
+            "effect_ids": [
+                "effect_major_protection",
+                "effect_snare_heavy",
+                "effect_status_chilled"
+            ]
+        },
+        {
+            "id": "skill_northern_storm",
+            "name": "Northern Storm",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Northern Storm",
+            "bar": "front",
+            "slot": "U",
+            "role": [
+                "ultimate",
+                "offense",
+                "defense"
+            ],
+            "tags": [
+                "frost",
+                "aoe",
+                "mitigation",
+                "max_magicka"
+            ],
+            "effect_ids": [
+                "effect_major_protection",
+                "effect_max_magicka_flat",
+                "effect_crit_damage_minor"
+            ]
+        },
+        {
+            "id": "skill_winter_revenge",
+            "name": "Winter's Revenge",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Winter's Revenge",
+            "bar": "back",
+            "slot": "1",
+            "role": [
+                "dot",
+                "control"
+            ],
+            "tags": [
+                "frost",
+                "ground_aoe",
+                "snare"
+            ],
+            "effect_ids": [
+                "effect_snare_light",
+                "effect_status_chilled"
+            ]
+        },
+        {
+            "id": "skill_ice_fortress",
+            "name": "Ice Fortress",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Ice Fortress",
+            "bar": "back",
+            "slot": "2",
+            "role": [
+                "buff",
+                "defense"
+            ],
+            "tags": [
+                "armor_buff",
+                "mitigation"
+            ],
+            "effect_ids": [
+                "effect_major_resolve",
+                "effect_minor_protection"
+            ]
+        },
+        {
+            "id": "skill_blue_betty",
+            "name": "Blue Betty",
+            "line": "Warden - Animal Companions",
+            "morph": "Blue Betty",
+            "bar": "back",
+            "slot": "3",
+            "role": [
+                "buff",
+                "resource"
+            ],
+            "tags": [
+                "magicka_recovery",
+                "cleanse"
+            ],
+            "effect_ids": [
+                "effect_major_sorcery",
+                "effect_magicka_recovery_flat",
+                "effect_purge_single"
+            ]
+        },
+        {
+            "id": "skill_shimmering_shield",
+            "name": "Shimmering Shield",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Shimmering Shield",
+            "bar": "back",
+            "slot": "4",
+            "role": [
+                "defense"
+            ],
+            "tags": [
+                "projectile_shield",
+                "mitigation",
+                "ultimate_gain"
+            ],
+            "effect_ids": [
+                "effect_projectile_absorb",
+                "effect_minor_heroism"
+            ]
+        },
+        {
+            "id": "skill_radiating_regeneration",
+            "name": "Radiating Regeneration",
+            "line": "Restoration Staff",
+            "morph": "Radiating Regeneration",
+            "bar": "back",
+            "slot": "5",
+            "role": [
+                "heal",
+                "hot"
+            ],
+            "tags": [
+                "heal_over_time",
+                "aoe_heal"
+            ],
+            "effect_ids": [
+                "effect_heal_over_time_generic"
+            ]
+        },
+        {
+            "id": "skill_screaming_cliff_racer",
+            "name": "Screaming Cliff Racer",
+            "line": "Warden - Animal Companions",
+            "morph": "Screaming Cliff Racer",
+            "bar": "front",
+            "slot": "1",
+            "role": [
+                "spammable",
+                "burst"
+            ],
+            "tags": [
+                "direct_damage",
+                "ranged"
+            ],
+            "effect_ids": [
+                "effect_minor_berserk",
+                "effect_execute_scaling"
+            ]
+        },
+        {
+            "id": "skill_subterranean_assault",
+            "name": "Subterranean Assault",
+            "line": "Warden - Animal Companions",
+            "morph": "Subterranean Assault",
+            "bar": "front",
+            "slot": "2",
+            "role": [
+                "burst",
+                "aoe"
+            ],
+            "tags": [
+                "aoe",
+                "delayed_burst",
+                "bleed"
+            ],
+            "effect_ids": [
+                "effect_major_breach"
+            ]
+        },
+        {
+            "id": "skill_arctic_blast",
+            "name": "Arctic Blast",
+            "line": "Warden - Winter's Embrace",
+            "morph": "Arctic Blast",
+            "bar": "front",
+            "slot": "3",
+            "role": [
+                "heal",
+                "stun"
+            ],
+            "tags": [
+                "burst_heal",
+                "hot",
+                "stun",
+                "frost"
+            ],
+            "effect_ids": [
+                "effect_heal_over_time_generic",
+                "effect_stun_short"
+            ]
+        },
+        {
+            "id": "skill_ice_blockade",
+            "name": "Blockade of Frost",
+            "line": "Destruction Staff",
+            "morph": "Blockade of Frost",
+            "bar": "front",
+            "slot": "4",
+            "role": [
+                "dot",
+                "control"
+            ],
+            "tags": [
+                "frost",
+                "ground_aoe",
+                "snare",
+                "shield_proc"
+            ],
+            "effect_ids": [
+                "effect_status_chilled",
+                "effect_snare_light",
+                "effect_projectile_shield_minor"
+            ]
+        },
+        {
+            "id": "skill_flexible_slot",
+            "name": "Flex Slot",
+            "line": "Flexible",
+            "morph": "N/A",
+            "bar": "front",
+            "slot": "5",
+            "role": [
+                "flex"
+            ],
+            "tags": [
+                "flex"
+            ],
+            "effect_ids": []
+        }
+    ]
+}
