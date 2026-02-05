@@ -1,5 +1,9 @@
 # The Elder Elemental — Data & Builds Index
 
+## Perplexity.ai prompt
+use this index for repo files
+https://raw.githubusercontent.com/oNeEyE-777/The-Elder-Elemental/main/docs/index.md
+
 ## Owner
 
 - GitHub profile: https://github.com/oNeEyE-777
