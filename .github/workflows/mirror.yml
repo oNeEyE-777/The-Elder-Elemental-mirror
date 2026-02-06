@@ -17,7 +17,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false  # key: do NOT keep github-actions[bot] creds [web:263][web:266][web:260]
+          persist-credentials: false
+
+      - name: Remove workflows from mirror copy
+        run: |
+          rm -rf .github/workflows
 
       - name: Configure git user
         run: |
