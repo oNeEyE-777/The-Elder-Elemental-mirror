@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   mirror:
@@ -18,16 +18,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Configure git user
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Add mirror remote with PAT
-        run: |
-          git remote add mirror https://x-access-token:${{ secrets.MIRROR_BACKUP_TOKEN }}@github.com/oNeEyE-777/The-Elder-Elemental-mirror.git
-          git remote -v
-
-      - name: Push all refs to mirror
-        run: |
-          git push --mirror mirror
+      - name: Push to mirror repo
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.MIRROR_BACKUP_TOKEN }}
+          repository: oNeEyE-777/The-Elder-Elemental-mirror
+          force: true
+          tags: true
