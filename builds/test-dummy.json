@@ -1,0 +1,67 @@
+{
+  "id": "build.test_dummy",
+  "name": "Test Dummy Build",
+  "meta": {
+    "version": "0.1.0",
+    "author": "Local Dev",
+    "last_updated": "2026-02-08",
+    "notes": "Minimal test build to validate Phase 1 data center tools."
+  },
+  "class": "Warden",
+  "role": "test",
+  "bars": {
+    "front": {
+      "weapon_type": "inferno_staff",
+      "slots": {
+        "1": {
+          "skill_id": "skill.deep_fissure"
+        },
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "ult": null
+      }
+    },
+    "back": {
+      "weapon_type": "ice_staff",
+      "slots": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": null,
+        "5": null,
+        "ult": null
+      }
+    }
+  },
+  "gear": {
+    "head": {
+      "set_id": "set.adept_rider",
+      "weight": "light",
+      "trait": "divines"
+    },
+    "chest": null,
+    "shoulders": null,
+    "hands": null,
+    "waist": null,
+    "legs": null,
+    "feet": null,
+    "jewelry_1": null,
+    "jewelry_2": null,
+    "jewelry_3": null,
+    "front_bar_weapon": {
+      "set_id": "set.adept_rider",
+      "type": "staff",
+      "trait": "precise"
+    },
+    "back_bar_weapon": null
+  },
+  "cp": {
+    "warfare": [
+      "cp.ironclad"
+    ],
+    "fitness": [],
+    "craft": []
+  }
+}
